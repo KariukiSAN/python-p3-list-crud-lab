@@ -30,6 +30,8 @@ def retrieve_first_element_from_list(l):
     
 
 def retrieve_element_from_index(l, index):
+    if 0 <= index < len (1):
+        return l[index]
     return None
 
 def retrieve_last_element_from_list(l):
