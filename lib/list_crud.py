@@ -16,7 +16,6 @@ def remove_element_from_end_of_list(l):
     if l:
         l.pop()
         return l
-    return None
 
 def remove_element_from_start_of_list(l):
     return None
