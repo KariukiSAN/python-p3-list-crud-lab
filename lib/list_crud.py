@@ -33,4 +33,6 @@ def retrieve_element_from_index(l, index):
         return l[index]
 
 def retrieve_last_element_from_list(l):
+    if l:
+        return l[-1]
     return None
